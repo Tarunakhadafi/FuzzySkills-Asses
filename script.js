@@ -119,19 +119,10 @@ function showResults(event) {
             <b>c. Stabilitas dalam Pengambilan Keputusan:</b><br> Kemampuan problem solving yang kuat dan kepemimpinan yang efektif menunjukkan kemampuan untuk mengambil keputusan dengan percaya diri dan tepat waktu.<br>
             <b>d. Kemungkinan Penyesuaian dengan Lingkungan Akademik dan Non-Akademik:</b><br> Nilai Hasil Analisis yang tinggi menandakan bahwa mahasiswa dapat dengan mudah menyesuaikan diri dan beradaptasi dengan lingkungan akademik maupun non-akademik yang dihadapinya.
         `;
-    } else if (totalScore >= 40) {
-        readiness = 'Mengulang';
-        readinessMessage = `
-            <b>Kriteria:</b><br> Mahasiswa yang mendapatkan skor total antara 40 hingga 69 poin.<br><br>
-            <b>Kecenderungan Umum:</b><br>
-            <b>a. Ketidakseimbangan Keterampilan:</b><br> Mahasiswa pada kategori ini cenderung menunjukkan kekuatan di beberapa area soft skill namun lemah di area lainnya. Misalnya, mereka mungkin baik dalam problem solving tetapi kurang dalam komunikasi.<br>
-            <b>b. Potensi Pengembangan:</b><br> Ada potensi pengembangan lebih lanjut, terutama dalam meningkatkan area soft skill yang masih lemah. Mahasiswa mungkin memerlukan lebih banyak pelatihan praktis atau pengalaman lapangan.<br>
-            <b>c. Kesiapan Mental untuk Belajar:</b><br> Mahasiswa yang mengulang biasanya memiliki kesiapan mental untuk belajar lebih lanjut dan mungkin lebih terbuka terhadap umpan balik dan pengembangan diri.
-        `;
     } else {
         readiness = 'Tidak Lulus';
         readinessMessage = `
-            <b>Kriteria:</b><br> Mahasiswa yang mendapatkan skor total di bawah 40 poin.<br><br>
+            <b>Kriteria:</b><br> Mahasiswa yang mendapatkan skor total di bawah 69 poin.<br><br>
             <b>Kecenderungan Umum:</b><br>
             <b>a. Keterbatasan Keterampilan Dasar:</b><br> Mahasiswa dalam kategori ini menunjukkan keterbatasan signifikan dalam soft skill dasar seperti problem solving, kepemimpinan, komunikasi, dan teamwork.<br>
             <b>b. Keterbatasan dalam Kolaborasi:</b><br> Kelemahan dalam teamwork dan komunikasi dapat mengindikasikan tantangan dalam berkolaborasi dengan rekan tim atau mengekspresikan ide secara efektif.<br>
